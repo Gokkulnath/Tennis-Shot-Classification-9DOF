@@ -1,0 +1,5 @@
+Files in Features are Raw Features without any labels. The Label is same as the filename and the assigned label must be concatenated infront of each feature vector.
+
+eg. [raw_features] must be changed to [label raw_features] before trainning of the classifers.
+
+In case you find feature vector to be of size 18 please run the Feature extract function by passing the corresponding parsed/Windowed Signal to obtain the new features

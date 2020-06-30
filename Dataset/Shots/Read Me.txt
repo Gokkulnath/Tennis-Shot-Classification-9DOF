@@ -1,0 +1,8 @@
+
+Folders Contain the respective class of Segmented shots.
+
+Filename With Total Is the Concatenation of all the Files into Single File.
+
+Rest of their Filenames are named based on the Session Number Sensor Number Video Name TypeofShot/Correct
+
+eg SS2AMG0q1080608Fore - Session 2 AMG 0 Sensor Filename - q1080608 TypeofShot- Fore

@@ -1,0 +1,52 @@
+>> Tree('example.mat')
+
+Decision Trees and Predictive Models with cross-validation and
+ROC (Receiver Operating Characteristic) analysis plot
+
+Running under UNIX ... Please check the MATLAB command for excel file import first!
+Type: [X, y, textdata] = ExcelImport (FileName) and check X, y, textdata
+
+Matlab File selected
+
+Number or covariates :  7 
+
+Number of outcome classes :  2
+Selected variables as categorical :
+    'SEX'
+
+
+------ Starting Classificatory tree with Gini algorithm ------
+
+Outcomes groups and cases:
+
+Group number : 0		 cases = 37
+Group number : 1		 cases = 103
+
+
+--- Features importance List ---
+Feature FEAT6 (n° 7) 		Relative Importance : 100.0 perc
+Feature FEAT5 (n° 5) 		Relative Importance : 15.6 perc
+Feature FEAT1 (n° 1) 		Relative Importance : 7.4 perc
+Feature FEAT3 (n° 3) 		Relative Importance : 6.1 perc
+Feature FEAT4 (n° 4) 		Relative Importance : 2.5 perc
+
+----> Leafs number (= terminal nodes) : 8
+
+----- Performing cross-validation to calculate best prune
+
+Number of v-fold : 10
+Plotting ROC curves
+Area Under Curve (AUC), Target Group: 0
+AUC =
+
+    0.9719
+
+
+Plotting ROC curves
+Area Under Curve (AUC), Target Group: 1
+AUC =
+
+    0.9719
+
+
+Proportion that is correctly classified : 92.86 
